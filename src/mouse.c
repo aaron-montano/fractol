@@ -6,7 +6,7 @@
 /*   By: amontano <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/14 23:42:24 by amontano          #+#    #+#             */
-/*   Updated: 2018/07/30 05:33:32 by amontano         ###   ########.fr       */
+/*   Updated: 2018/07/31 21:57:35 by amontano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ int		hook_mousemove(int x, int y, t_mlx *mlx)
 	mlx->mouse->prev_y = mlx->mouse->y;
 	mlx->mouse->x = x;
 	mlx->mouse->y = y;
-	if (mlx->mouse->is_down & 0x01)
+	if (mlx->mouse->is_down & 0x02)
 	{
 		mlx->frac->x_off +=
 		(1.5 * (mlx->mouse->prev_x - HALF_W) / (HALF_W * mlx->frac->context)) \
