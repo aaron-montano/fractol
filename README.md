@@ -2,8 +2,8 @@
 
 # controls
 
-left click and drag : move\n
-right click and drag : change value of z (julia sets only)\n
+left click and drag : move</br>
+right click and drag : change value of z (julia sets only)</br>
 middle click : center view
 F : toggle mouse-move changes z
 SPACE : toggle freecamera (as if it were a first person game)
