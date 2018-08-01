@@ -13,5 +13,5 @@ max_iter +/- 10 : NUMPAD + or -
 change color: keys 1 - 6
 change fractol : NUMPAD 1 - 6
 
-"\" : reset camera
+backslash "\\" : reset camera
 ESC : exit
