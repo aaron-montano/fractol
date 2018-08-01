@@ -1,5 +1,10 @@
 # fractol
+make</br>
+make clean</br>
+./fractol [1 -6] [1-6]</br>
 
+bad parameters default to 0.</br>
+takes either 1 or 2 arguments.</br>
 # controls
 
 left click and drag : move</br>
